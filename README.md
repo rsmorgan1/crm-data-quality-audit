@@ -1,4 +1,4 @@
-# CRM Data Quality Audit & Remediation
+# CRM Data Quality Audit & Remediation (Python + R)
 
 A complete data quality audit workflow for a simulated private equity CRM dataset. This project demonstrates profiling, scoring, remediation, and monitoring of deal pipeline data — from identifying issues to measuring improvement.
 
