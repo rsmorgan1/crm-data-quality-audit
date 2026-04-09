@@ -1,0 +1,211 @@
+{
+  "summary": {
+    "total_records": 525,
+    "total_columns": 21,
+    "profiled_at": "2026-04-09T09:27:49.641145"
+  },
+  "scorecard": {
+    "composite_score": 91.6,
+    "completeness": 94.8,
+    "consistency": 84.2,
+    "accuracy": 97.3,
+    "uniqueness": 90.5
+  },
+  "completeness": {
+    "deal_id": {
+      "total": 525,
+      "populated": 525,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "company_name": {
+      "total": 525,
+      "populated": 525,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "industry": {
+      "total": 525,
+      "populated": 525,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "deal_type": {
+      "total": 525,
+      "populated": 525,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "deal_stage": {
+      "total": 525,
+      "populated": 525,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "deal_owner": {
+      "total": 525,
+      "populated": 525,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "date_sourced": {
+      "total": 525,
+      "populated": 525,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "focus_area": {
+      "total": 525,
+      "populated": 448,
+      "missing": 77,
+      "completeness_pct": 85.3
+    },
+    "source": {
+      "total": 525,
+      "populated": 525,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "revenue_usd": {
+      "total": 525,
+      "populated": 478,
+      "missing": 47,
+      "completeness_pct": 91.0
+    },
+    "ebitda_usd": {
+      "total": 525,
+      "populated": 448,
+      "missing": 77,
+      "completeness_pct": 85.3
+    },
+    "deal_size_usd": {
+      "total": 525,
+      "populated": 446,
+      "missing": 79,
+      "completeness_pct": 85.0
+    },
+    "primary_contact": {
+      "total": 525,
+      "populated": 525,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "contact_email": {
+      "total": 525,
+      "populated": 425,
+      "missing": 100,
+      "completeness_pct": 81.0
+    }
+  },
+  "consistency": {
+    "industry": {
+      "valid": 400,
+      "invalid": 125,
+      "unique_values": 15,
+      "expected_unique": 3,
+      "consistency_pct": 76.2,
+      "invalid_examples": [
+        "education",
+        "Edu",
+        "HEALTHCARE",
+        "Tech-Enabled Services",
+        "HC"
+      ]
+    },
+    "focus_area": {
+      "valid": 415,
+      "invalid": 33,
+      "unique_values": 30,
+      "expected_unique": 17,
+      "consistency_pct": 92.6,
+      "invalid_examples": [
+        "Pharma Svcs",
+        "Provider Svcs",
+        "CCS",
+        "Chronic Care",
+        "Property Svcs"
+      ]
+    },
+    "deal_type": {
+      "valid": 440,
+      "invalid": 85,
+      "consistency_pct": 83.8,
+      "invalid_examples": [
+        "ADD-ON",
+        "platform",
+        "Plat",
+        "PLATFORM",
+        "add-on"
+      ]
+    },
+    "deal_stage": {
+      "valid": 437,
+      "invalid": 88,
+      "consistency_pct": 83.2,
+      "invalid_examples": [
+        "Closed Won",
+        "Lost",
+        "offer",
+        "Declined",
+        "closed lost"
+      ]
+    },
+    "source": {
+      "valid": 448,
+      "invalid": 77,
+      "consistency_pct": 85.3,
+      "invalid_examples": [
+        "intermediary",
+        "Direct",
+        "referral",
+        "Internal",
+        "proprietary"
+      ]
+    }
+  },
+  "accuracy": {
+    "email_format": {
+      "valid": 396,
+      "invalid": 29,
+      "accuracy_pct": 93.2
+    },
+    "date_sequence_sourced_reviewed": {
+      "valid": 525,
+      "invalid": 0,
+      "accuracy_pct": 100.0
+    },
+    "no_future_dates": {
+      "valid": 501,
+      "invalid": 24,
+      "accuracy_pct": 95.4
+    },
+    "ebitda_vs_revenue": {
+      "valid": 525,
+      "invalid": 0,
+      "accuracy_pct": 100.0
+    },
+    "revenue_range": {
+      "valid": 515,
+      "invalid": 10,
+      "accuracy_pct": 98.1
+    }
+  },
+  "uniqueness": {
+    "total_records": 525,
+    "duplicate_records": 50,
+    "unique_records": 475,
+    "uniqueness_pct": 90.5,
+    "duplicate_companies": [
+      "national education",
+      "advanced solutions",
+      "gray services",
+      "american health",
+      "national care",
+      "stephens care",
+      "martin & marsh holdings",
+      "alanton medical group",
+      "premier medical",
+      "melton & johnson associates"
+    ]
+  }
+}

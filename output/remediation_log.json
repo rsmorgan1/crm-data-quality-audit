@@ -1,0 +1,57 @@
+[
+  {
+    "step": "whitespace_trim",
+    "field": "company_name",
+    "records_changed": 43
+  },
+  {
+    "step": "whitespace_trim",
+    "field": "primary_contact",
+    "records_changed": 47
+  },
+  {
+    "step": "industry_standardization",
+    "field": "industry",
+    "records_changed": 125
+  },
+  {
+    "step": "focus_area_standardization",
+    "field": "focus_area",
+    "records_changed": 33
+  },
+  {
+    "step": "deal_type_standardization",
+    "field": "deal_type",
+    "records_changed": 85
+  },
+  {
+    "step": "deal_stage_standardization",
+    "field": "deal_stage",
+    "records_changed": 88
+  },
+  {
+    "step": "source_standardization",
+    "field": "source",
+    "records_changed": 77
+  },
+  {
+    "step": "email_validation_flag",
+    "field": "contact_email",
+    "records_flagged": 29
+  },
+  {
+    "step": "duplicate_flagging",
+    "field": "company_name+date_sourced",
+    "records_flagged": 25
+  },
+  {
+    "step": "date_validation_flag",
+    "field": "dates",
+    "records_flagged": 21
+  },
+  {
+    "step": "financial_outlier_flag",
+    "field": "financials",
+    "records_flagged": 23
+  }
+]

@@ -1,0 +1,170 @@
+{
+  "summary": {
+    "total_records": 500,
+    "total_columns": 23,
+    "profiled_at": "2026-04-09T09:28:55.533070"
+  },
+  "scorecard": {
+    "composite_score": 97.7,
+    "completeness": 94.7,
+    "consistency": 100.0,
+    "accuracy": 97.3,
+    "uniqueness": 100.0
+  },
+  "completeness": {
+    "deal_id": {
+      "total": 500,
+      "populated": 500,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "company_name": {
+      "total": 500,
+      "populated": 500,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "industry": {
+      "total": 500,
+      "populated": 500,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "deal_type": {
+      "total": 500,
+      "populated": 500,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "deal_stage": {
+      "total": 500,
+      "populated": 500,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "deal_owner": {
+      "total": 500,
+      "populated": 500,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "date_sourced": {
+      "total": 500,
+      "populated": 500,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "focus_area": {
+      "total": 500,
+      "populated": 426,
+      "missing": 74,
+      "completeness_pct": 85.2
+    },
+    "source": {
+      "total": 500,
+      "populated": 500,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "revenue_usd": {
+      "total": 500,
+      "populated": 455,
+      "missing": 45,
+      "completeness_pct": 91.0
+    },
+    "ebitda_usd": {
+      "total": 500,
+      "populated": 426,
+      "missing": 74,
+      "completeness_pct": 85.2
+    },
+    "deal_size_usd": {
+      "total": 500,
+      "populated": 422,
+      "missing": 78,
+      "completeness_pct": 84.4
+    },
+    "primary_contact": {
+      "total": 500,
+      "populated": 500,
+      "missing": 0,
+      "completeness_pct": 100.0
+    },
+    "contact_email": {
+      "total": 500,
+      "populated": 402,
+      "missing": 98,
+      "completeness_pct": 80.4
+    }
+  },
+  "consistency": {
+    "industry": {
+      "valid": 500,
+      "invalid": 0,
+      "unique_values": 3,
+      "expected_unique": 3,
+      "consistency_pct": 100.0,
+      "invalid_examples": []
+    },
+    "focus_area": {
+      "valid": 426,
+      "invalid": 0,
+      "unique_values": 17,
+      "expected_unique": 17,
+      "consistency_pct": 100.0,
+      "invalid_examples": []
+    },
+    "deal_type": {
+      "valid": 500,
+      "invalid": 0,
+      "consistency_pct": 100.0,
+      "invalid_examples": []
+    },
+    "deal_stage": {
+      "valid": 500,
+      "invalid": 0,
+      "consistency_pct": 100.0,
+      "invalid_examples": []
+    },
+    "source": {
+      "valid": 500,
+      "invalid": 0,
+      "consistency_pct": 100.0,
+      "invalid_examples": []
+    }
+  },
+  "accuracy": {
+    "email_format": {
+      "valid": 373,
+      "invalid": 29,
+      "accuracy_pct": 92.8
+    },
+    "date_sequence_sourced_reviewed": {
+      "valid": 500,
+      "invalid": 0,
+      "accuracy_pct": 100.0
+    },
+    "no_future_dates": {
+      "valid": 479,
+      "invalid": 21,
+      "accuracy_pct": 95.8
+    },
+    "ebitda_vs_revenue": {
+      "valid": 500,
+      "invalid": 0,
+      "accuracy_pct": 100.0
+    },
+    "revenue_range": {
+      "valid": 490,
+      "invalid": 10,
+      "accuracy_pct": 98.0
+    }
+  },
+  "uniqueness": {
+    "total_records": 500,
+    "duplicate_records": 0,
+    "unique_records": 500,
+    "uniqueness_pct": 100.0,
+    "duplicate_companies": []
+  }
+}
