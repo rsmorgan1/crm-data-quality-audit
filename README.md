@@ -62,6 +62,10 @@ project-1-crm-data-quality-audit/
 │   ├── remediate_data.py             # Standardization & cleaning rules
 │   ├── generate_visualizations.py    # Publication-ready charts
 │   └── quality_checks.sql           # SQL-based quality check queries
+├── scripts_r/
+│   ├── 01_data_profiler.R            # Profiling & quality scoring engine
+│   ├── 02_remediate_data.R           # Standardization & cleaning rules
+│   ├── 03_generate_visualizations.R  # Publication-ready charts
 └── output/
     ├── profile_report_raw.json       # Pre-remediation profile
     ├── profile_report_cleaned.json   # Post-remediation profile
@@ -106,7 +110,7 @@ The aggregate scorecard adds **Uniqueness** (15%) as a dataset-level metric, wit
 # 1. Install dependencies
 pip install pandas faker matplotlib seaborn numpy
 
-# 2. Generate synthetic dataset
+# 2. Generate a synthetic dataset
 python scripts/generate_synthetic_data.py
 
 # 3. Profile the raw data
@@ -135,7 +139,7 @@ python scripts/generate_visualizations.py
 
 ## Technologies
 
-Python (pandas, numpy, faker, matplotlib) · SQL · Data Quality Frameworks
+Python (pandas, numpy, faker, matplotlib) · R · SQL · Data Quality Frameworks
 
 ---
 
